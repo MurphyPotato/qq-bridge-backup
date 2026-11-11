@@ -1,0 +1,92 @@
+[
+    {
+        "pr":  138,
+        "review":  {
+                       "id":  5723772875,
+                       "node_id":  "PRR_kwDOUDfee88AAAABVSnXyw",
+                       "user":  {
+                                    "login":  "github-advanced-security[bot]",
+                                    "id":  62310815,
+                                    "node_id":  "MDM6Qm90NjIzMTA4MTU=",
+                                    "avatar_url":  "https://avatars.githubusercontent.com/in/57789?v=4",
+                                    "gravatar_id":  "",
+                                    "url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                                    "html_url":  "https://github.com/apps/github-advanced-security",
+                                    "followers_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                                    "following_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                                    "gists_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                                    "starred_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                                    "subscriptions_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                                    "organizations_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                                    "repos_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                                    "events_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                                    "received_events_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                                    "type":  "Bot",
+                                    "user_view_type":  "public",
+                                    "site_admin":  false
+                                },
+                       "body":  "",
+                       "state":  "COMMENTED",
+                       "html_url":  "https://github.com/Derpyu520/qq-bridge/pull/138#pullrequestreview-5723772875",
+                       "pull_request_url":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/138",
+                       "author_association":  "NONE",
+                       "is_copilot_code_review":  false,
+                       "copilot_code_review_effort":  null,
+                       "_links":  {
+                                      "html":  {
+                                                   "href":  "https://github.com/Derpyu520/qq-bridge/pull/138#pullrequestreview-5723772875"
+                                               },
+                                      "pull_request":  {
+                                                           "href":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/138"
+                                                       }
+                                  },
+                       "submitted_at":  "2026-10-31T16:30:51Z",
+                       "commit_id":  "613db68adb2a3cbbb7b3345e05a17339ffb4977e"
+                   }
+    },
+    {
+        "pr":  138,
+        "review":  {
+                       "id":  5723787563,
+                       "node_id":  "PRR_kwDOUDfee88AAAABVSoRKw",
+                       "user":  {
+                                    "login":  "github-advanced-security[bot]",
+                                    "id":  62310815,
+                                    "node_id":  "MDM6Qm90NjIzMTA4MTU=",
+                                    "avatar_url":  "https://avatars.githubusercontent.com/in/57789?v=4",
+                                    "gravatar_id":  "",
+                                    "url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                                    "html_url":  "https://github.com/apps/github-advanced-security",
+                                    "followers_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                                    "following_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                                    "gists_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                                    "starred_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                                    "subscriptions_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                                    "organizations_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                                    "repos_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                                    "events_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                                    "received_events_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                                    "type":  "Bot",
+                                    "user_view_type":  "public",
+                                    "site_admin":  false
+                                },
+                       "body":  "",
+                       "state":  "COMMENTED",
+                       "html_url":  "https://github.com/Derpyu520/qq-bridge/pull/138#pullrequestreview-5723787563",
+                       "pull_request_url":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/138",
+                       "author_association":  "NONE",
+                       "is_copilot_code_review":  false,
+                       "copilot_code_review_effort":  null,
+                       "_links":  {
+                                      "html":  {
+                                                   "href":  "https://github.com/Derpyu520/qq-bridge/pull/138#pullrequestreview-5723787563"
+                                               },
+                                      "pull_request":  {
+                                                           "href":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/138"
+                                                       }
+                                  },
+                       "submitted_at":  "2026-10-31T16:35:44Z",
+                       "commit_id":  "6ccee53207b94a1c7d609ebeafeb47a7c2eeba5f"
+                   }
+    }
+]

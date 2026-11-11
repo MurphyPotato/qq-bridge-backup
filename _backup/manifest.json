@@ -1,0 +1,33 @@
+{
+    "backup_created_at":  "2026-11-11T16:55:02Z",
+    "source_repo":  "https://github.com/Derpyu520/qq-bridge",
+    "backup_repo":  "https://github.com/MurphyPotato/qq-bridge-backup",
+    "reason":  "Emergency backup: original maintainer no longer maintaining the project",
+    "source_default_branch":  "main",
+    "stars":  3647,
+    "forks":  279,
+    "counts":  {
+                   "branches":  4,
+                   "tags":  10,
+                   "releases":  10,
+                   "release_assets":  1,
+                   "issues":  84,
+                   "pull_requests":  95,
+                   "issue_comments":  141,
+                   "pull_review_comments":  2,
+                   "pull_reviews":  2,
+                   "discussions":  0
+               },
+    "files":  {
+                  "repo.json":  "repository metadata",
+                  "refs.txt":  "all branch/tag SHAs at backup time",
+                  "issues.json":  "all issues (excluding PRs)",
+                  "issues-and-prs.json":  "raw issue feed incl. PRs",
+                  "issue-comments.json":  "all issue/PR conversation comments",
+                  "pull-requests.json":  "all pull requests",
+                  "pull-reviews.json":  "all PR reviews (review summary objects)",
+                  "pull-review-comments.json":  "all inline PR review comments",
+                  "releases.json":  "all releases with asset metadata",
+                  "discussions.json":  "GitHub Discussions (empty if totalCount=0)"
+              }
+}

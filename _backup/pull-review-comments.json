@@ -1,0 +1,148 @@
+[
+    {
+        "url":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/comments/4432426830",
+        "pull_request_review_id":  5723772875,
+        "id":  4432426830,
+        "node_id":  "PRRC_kwDOUDfee88AAAABCDF3Tg",
+        "diff_hunk":  "@@ -1270,7 +1270,13 @@\n   try { console.log(line); } catch {}\n   appendBridgeLog(`${line}\\n`);\n }\n-const sleep = (ms) =\u003e new Promise((r) =\u003e setTimeout(r, ms));\n+// 配置文件、旧状态和控制台输入都可能带来极大值或非有限数。\n+// Node 会把溢出的 setTimeout 延迟改成 1ms；周期检查因此可能退化成忙循环。\n+function boundedTimerDelay(value, fallback = 0, min = 0, max = 86400000) {\n+  const n = Number(value);\n+  return Math.min(max, Math.max(min, Math.round(Number.isFinite(n) ? n : fallback)));\n+}\n+const sleep = (ms) =\u003e new Promise((r) =\u003e setTimeout(r, boundedTimerDelay(ms)));",
+        "path":  "src/bridge.js",
+        "commit_id":  "613db68adb2a3cbbb7b3345e05a17339ffb4977e",
+        "original_commit_id":  "613db68adb2a3cbbb7b3345e05a17339ffb4977e",
+        "user":  {
+                     "login":  "github-advanced-security[bot]",
+                     "id":  62310815,
+                     "node_id":  "MDM6Qm90NjIzMTA4MTU=",
+                     "avatar_url":  "https://avatars.githubusercontent.com/in/57789?v=4",
+                     "gravatar_id":  "",
+                     "url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                     "html_url":  "https://github.com/apps/github-advanced-security",
+                     "followers_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                     "following_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                     "gists_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                     "starred_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                     "subscriptions_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                     "organizations_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                     "repos_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                     "events_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                     "received_events_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                     "type":  "Bot",
+                     "user_view_type":  "public",
+                     "site_admin":  false
+                 },
+        "body":  "## CodeQL / Resource exhaustion\n\nThis creates a timer with a user-controlled duration from a [user-provided value](1).\n\n[Show more details](https://github.com/Derpyu520/qq-bridge/security/code-scanning/15)",
+        "created_at":  "2026-10-31T16:30:51Z",
+        "updated_at":  "2026-10-31T16:30:51Z",
+        "html_url":  "https://github.com/Derpyu520/qq-bridge/pull/138#discussion_r4432426830",
+        "pull_request_url":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/138",
+        "_links":  {
+                       "self":  {
+                                    "href":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/comments/4432426830"
+                                },
+                       "html":  {
+                                    "href":  "https://github.com/Derpyu520/qq-bridge/pull/138#discussion_r4432426830"
+                                },
+                       "pull_request":  {
+                                            "href":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/138"
+                                        }
+                   },
+        "reactions":  {
+                          "url":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/comments/4432426830/reactions",
+                          "total_count":  0,
+                          "+1":  0,
+                          "-1":  0,
+                          "laugh":  0,
+                          "hooray":  0,
+                          "confused":  0,
+                          "heart":  0,
+                          "rocket":  0,
+                          "eyes":  0
+                      },
+        "start_line":  null,
+        "original_start_line":  null,
+        "start_side":  null,
+        "line":  1280,
+        "original_line":  1279,
+        "side":  "RIGHT",
+        "author_association":  "NONE",
+        "original_position":  11,
+        "position":  1,
+        "subject_type":  "line",
+        "is_copilot_code_review":  false,
+        "copilot_code_review_sources":  [
+
+                                        ]
+    },
+    {
+        "url":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/comments/4432439931",
+        "pull_request_review_id":  5723787563,
+        "id":  4432439931,
+        "node_id":  "PRRC_kwDOUDfee88AAAABCDGqew",
+        "diff_hunk":  "@@ -1270,7 +1270,13 @@\n   try { console.log(line); } catch {}\n   appendBridgeLog(`${line}\\n`);\n }\n-const sleep = (ms) =\u003e new Promise((r) =\u003e setTimeout(r, ms));\n+// 配置文件、旧状态和控制台输入都可能带来极大值或非有限数。\n+// Node 会把溢出的 setTimeout 延迟改成 1ms；周期检查因此可能退化成忙循环。\n+function boundedTimerDelay(value, fallback = 0, min = 0, max = 86400000) {\n+  const n = Number(value);\n+  return Math.min(max, Math.max(min, Math.round(Number.isFinite(n) ? n : fallback)));\n+}\n+const sleep = (ms) =\u003e new Promise((r) =\u003e setTimeout(r, Math.min(86400000, Math.max(0, boundedTimerDelay(ms)))));",
+        "path":  "src/bridge.js",
+        "commit_id":  "6ccee53207b94a1c7d609ebeafeb47a7c2eeba5f",
+        "original_commit_id":  "6ccee53207b94a1c7d609ebeafeb47a7c2eeba5f",
+        "user":  {
+                     "login":  "github-advanced-security[bot]",
+                     "id":  62310815,
+                     "node_id":  "MDM6Qm90NjIzMTA4MTU=",
+                     "avatar_url":  "https://avatars.githubusercontent.com/in/57789?v=4",
+                     "gravatar_id":  "",
+                     "url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D",
+                     "html_url":  "https://github.com/apps/github-advanced-security",
+                     "followers_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/followers",
+                     "following_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/following{/other_user}",
+                     "gists_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/gists{/gist_id}",
+                     "starred_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/starred{/owner}{/repo}",
+                     "subscriptions_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/subscriptions",
+                     "organizations_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/orgs",
+                     "repos_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/repos",
+                     "events_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/events{/privacy}",
+                     "received_events_url":  "https://api.github.com/users/github-advanced-security%5Bbot%5D/received_events",
+                     "type":  "Bot",
+                     "user_view_type":  "public",
+                     "site_admin":  false
+                 },
+        "body":  "## CodeQL / Resource exhaustion\n\nThis creates a timer with a user-controlled duration from a [user-provided value](1).\n\n[Show more details](https://github.com/Derpyu520/qq-bridge/security/code-scanning/16)",
+        "created_at":  "2026-10-31T16:35:43Z",
+        "updated_at":  "2026-10-31T16:35:44Z",
+        "html_url":  "https://github.com/Derpyu520/qq-bridge/pull/138#discussion_r4432439931",
+        "pull_request_url":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/138",
+        "_links":  {
+                       "self":  {
+                                    "href":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/comments/4432439931"
+                                },
+                       "html":  {
+                                    "href":  "https://github.com/Derpyu520/qq-bridge/pull/138#discussion_r4432439931"
+                                },
+                       "pull_request":  {
+                                            "href":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/138"
+                                        }
+                   },
+        "reactions":  {
+                          "url":  "https://api.github.com/repos/Derpyu520/qq-bridge/pulls/comments/4432439931/reactions",
+                          "total_count":  0,
+                          "+1":  0,
+                          "-1":  0,
+                          "laugh":  0,
+                          "hooray":  0,
+                          "confused":  0,
+                          "heart":  0,
+                          "rocket":  0,
+                          "eyes":  0
+                      },
+        "start_line":  null,
+        "original_start_line":  null,
+        "start_side":  null,
+        "line":  null,
+        "original_line":  1279,
+        "side":  "RIGHT",
+        "author_association":  "NONE",
+        "original_position":  11,
+        "position":  1,
+        "subject_type":  "line",
+        "is_copilot_code_review":  false,
+        "copilot_code_review_sources":  [
+
+                                        ]
+    }
+]
